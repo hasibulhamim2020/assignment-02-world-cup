@@ -49,6 +49,7 @@ padding-right: 5%;
     padding-bottom: 0px;
     width: 80%;
     padding-right: 10px;
+    margin-bottom: -.4vw;
 
 }
 .middle-section{
@@ -61,6 +62,7 @@ margin-right: 10%;
     display: grid;
     grid-template-columns: 1fr repeat(1,3fr);
     gap: 1vw;
+
     
 }
 .middle-button{
@@ -83,7 +85,7 @@ margin-right: 10%;
     background-color: rgb(255, 255, 255);
     border: 0;
     border-radius: 4px;
-    font-size: 2vwvw;
+    font-size: 2vw;
     font-weight: 600;
 
    
@@ -182,6 +184,9 @@ hr {
         margin-left: 5%;
         margin-right: 5%;  
         width: 90%;
+        
+        justify-items: center;
+        align-items: center;
         }
     .top-section{
         display: grid;
@@ -196,7 +201,7 @@ hr {
     }
     .top-image img{
         margin-top: 0%;
-        margin-bottom: 0px;
+        margin-bottom: -1vw;
         padding-bottom: 0px;
         width: 80%;
         padding-right: 10%;
@@ -206,23 +211,20 @@ hr {
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 1vw;
-
-
+        justify-items: center;
+        align-items: center;
     }
     .middle-button{
-        background-color:white;
-width: 90%;
-margin-right: 5%;
+        background-color:white;       
+align-items: center;
     }
     .middle-button button{
         border: 1px solid gray;
-
-
+        font-size: 2vw;
     }
     .middle-grid-step2{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-
         gap: 1vw;
 }
 #match{
@@ -274,7 +276,7 @@ margin-right: 5%;
     
     .top-image img{
         margin-top: 5%;
-        margin-bottom: 0px;
+        margin-bottom: -.5vw;
         padding-bottom: 0px;
         width: 80%;
         padding-right: 10px;
@@ -304,7 +306,7 @@ margin-right: 5%;
         padding-left: 0%;
         height: max-content;
         width: 100%;
-
+        font-size: 2vw;
     }
     .middle-grid-step2{
         display: grid;
