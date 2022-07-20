@@ -74,8 +74,8 @@ margin-right: 10%;
     background-color: black;
     border: 0;
     border-radius: 10px;
-    height: 220px;
-    width: 200px;
+    height: 200px;
+    width: 180px;
    
    
 }
@@ -85,7 +85,7 @@ margin-right: 10%;
     background-color: rgb(255, 255, 255);
     border: 0;
     border-radius: 4px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 600;
 
    
@@ -177,14 +177,25 @@ hr {
     align-items: center;
     padding-bottom: 150px;
 }
+
+.social{
+    padding: 1vw;
+    padding-right: 2vw;
+    background-color: black;
+text-align: right;
+}
+.social a{
+    color: white;
+    padding: 1%;
+}
+
 /* mobile */
 @media screen and (max-width: 576px) {
 
     .top-banner{
         margin-left: 5%;
         margin-right: 5%;  
-        width: 90%;
-        
+        width: 90%;    
         justify-items: center;
         align-items: center;
         }
