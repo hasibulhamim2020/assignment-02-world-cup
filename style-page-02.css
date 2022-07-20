@@ -3,6 +3,7 @@ body{
 }
 .top-banner{
 background-color: rgb(23, 22, 22);
+background-image: url("resources/maker.gif");
 background-repeat: no-repeat;
 background-size: cover;
 width: 80%;
@@ -28,6 +29,8 @@ margin-bottom: 20%;
 font-size: 1.8vw;
 color: aliceblue;
 padding-right: 5%;
+text-shadow: 0 0 5px black, 0 0 5px black ;
+
 }
 .top-heading p{
     font-size: 1vw;
@@ -46,11 +49,10 @@ padding-right: 5%;
 .top-image img{
     margin-top: 5%;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0spx;
     width: 80%;
     padding-right: 10px;
-    margin-bottom: -.4vw;
-
+ margin-bottom: -10px;
 }
 .middle-section{
     margin-top: 100px;
@@ -197,6 +199,7 @@ text-align: right;
         width: 90%;    
         justify-items: center;
         align-items: center;
+background-position: center;
         }
     .top-section{
         display: grid;
@@ -377,7 +380,7 @@ align-items: center;
     box-shadow: 5px 1px 15px;
     border-radius: 10px;
 width: 100%;
-font-size: 1vw;
+font-size: 2vw;
 padding-bottom: 7%;
 margin-bottom: 1vw;
 text-align: left;
