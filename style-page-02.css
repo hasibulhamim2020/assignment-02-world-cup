@@ -134,6 +134,8 @@ padding-bottom: 7%;
 #blog img{
     width: 100%;
     height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #blog button{
     border: 1px solid gray;
@@ -210,7 +212,7 @@ background-position: center;
     } 
     .top-heading{
         margin-top: 10%;
-        margin-left: 15%;
+        margin-left: 10%;
         margin-bottom: 5%;
     }
     .top-image img{
