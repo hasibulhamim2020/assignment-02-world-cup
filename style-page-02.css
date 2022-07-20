@@ -236,7 +236,7 @@ align-items: center;
     }
     .middle-button button{
         border: 1px solid gray;
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .middle-grid-step2{
         display: grid;
