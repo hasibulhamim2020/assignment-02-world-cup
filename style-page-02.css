@@ -233,6 +233,7 @@ background-position: center;
     .middle-button{
         background-color:white;       
 align-items: center;
+margin-bottom: 7vw;
     }
     .middle-button button{
         border: 1px solid gray;
@@ -277,6 +278,7 @@ align-items: center;
     font-size: 4vw;
     padding-bottom: 7%;
     margin-bottom: 4vw;
+   
     }
     #blog img{
         width: 100%;
@@ -419,7 +421,7 @@ margin-bottom: 0%;
 
     .footer-content{
         display: grid;
-        grid-template-columns: repeat(4,10%);
+        grid-template-columns: repeat(3,10%);
         justify-content: center;
         align-items: center;
         padding-bottom: 50px;
